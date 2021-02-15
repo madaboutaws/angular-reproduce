@@ -1,0 +1,61 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-customtext1-dev-170908-authRole",
+      "UnauthRoleArn": "arn:aws:iam::543477293872:role/amplify-customtext1-dev-170908-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::543477293872:role/amplify-customtext1-dev-170908-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-customtext1-dev-170908-deployment",
+      "UnauthRoleName": "amplify-customtext1-dev-170908-unauthRole",
+      "StackName": "amplify-customtext1-dev-170908",
+      "StackId": "arn:aws:cloudformation:ap-south-1:543477293872:stack/amplify-customtext1-dev-170908/f4f3b370-5f01-11eb-8066-0aa75203767c"
+    },
+    "categories": {
+      "auth": {
+        "customtext1bab384c6": {}
+      },
+      "function": {
+        "customtext1bb294d0c": {
+          "deploymentBucketName": "amplify-customtext1-dev-170908-deployment",
+          "s3Key": "amplify-builds/customtext1bb294d0c-build.zip"
+        }
+      }
+    },
+    "nonCFNdata": {
+      "function": {
+        "customtext1bb294d0c": {
+          "layerVersionMap": {
+            "1": {
+              "permissions": [
+                {
+                  "type": "awsAccounts",
+                  "accounts": [
+                    "543477293872"
+                  ]
+                },
+                {
+                  "type": "private"
+                }
+              ],
+              "hash": "/15WhN0y8BFmhAyqssurn6GDHBJv9CJLv/i5wEz3oEE="
+            }
+          }
+        },
+        "customtext11c6c45e9": {
+          "layerVersionMap": {
+            "1": {
+              "permissions": [
+                {
+                  "type": "public"
+                },
+                {
+                  "type": "private"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "api": {
+      "customtext1": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}
